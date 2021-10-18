@@ -8,6 +8,7 @@ import Doctor from './Pages/Doctors/Doctor';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import Contacts from './Pages/Contacts/Contacts';
 import NotFound from './Pages/NotFound/NotFound';
+import Login from './Pages/Login/Login';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
                 </Route>
                 <Route path="/home">
                     <Home></Home>
+                </Route>
+                <Route path="/login">
+                    <Login></Login>
                 </Route>
                 <Route path="/doctors">
                     <Doctor></Doctor>
