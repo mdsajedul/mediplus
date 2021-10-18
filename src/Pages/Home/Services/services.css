@@ -1,0 +1,10 @@
+.services-card{
+    margin-top: 50px;
+    margin-left: 40px;
+    color: #2B3A5E;
+    
+}
+.services-card p{
+    font-weight: 600;
+    font-size: 16px;
+}
