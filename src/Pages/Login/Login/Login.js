@@ -1,10 +1,13 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import useAuth from '../../../Hooks/useAuth';
 import './login.css';
 
 const Login = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => console.log(data);
+    const {signInWithGoogle,user} = useAuth();
+    console.log(user)
     return (
         <div className="login-container d-flex justify-content-center">
            
@@ -25,7 +28,7 @@ const Login = () => {
                     </form>
                 </div>
                 <hr />
-                    <button className="btn-login">Login with Google</button>
+                    <button className="btn-login" onClick={signInWithGoogle}>Login with Google</button>
            </div>
           
         </div>

@@ -1,3 +1,17 @@
 .nav-custom{
     background-color: #2B3A5E;
 }
+.user-name{
+    color: white;
+}
+.btn-logout{
+    background-color: #2B3A5E; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:grab;
+}
