@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "name":"Medical care and care",
+        "cat":"For the elderly people",
+        "detail":"On the basis of the medical center “Nordis” can be given a thorough examination of the body and get the advice of highly qualified specialists in various fields of medicine. According to studies, our doctors will make an individual program of prevention and treatment of identified diseases, directed to a surgical treatment if necessary.",
+        "detail-para":"In today’s operational department conducted a wide range of operations under local and general anesthesia; as in “Nordis” provides services for the diagnosis and treatment of infertility, including the use of reproductive technologies (IVF).",
+        "img":"https://nordis.true-emotions.studio/health/wp-content/uploads/sites/14/2018/03/171025-better-doctor.jpg"
+    },
+    {
+        "id":2,
+        "name":"Care and help at home",
+        "cat":"For the elderly people",
+        "detail":"On the basis of the medical center “Nordis” can be given a thorough examination of the body and get the advice of highly qualified specialists in various fields of medicine. According to studies, our doctors will make an individual program of prevention and treatment of identified diseases, directed to a surgical treatment if necessary.",
+        "detail-para":"In today’s operational department conducted a wide range of operations under local and general anesthesia; as in “Nordis” provides services for the diagnosis and treatment of infertility, including the use of reproductive technologies (IVF).",
+        "img":"https://nordis.true-emotions.studio/health/wp-content/uploads/sites/14/2018/03/153810275-2.jpg"
+    },
+    {
+        "id":3,
+        "name":"Specialized care",
+        "cat":"For the elderly people",
+        "detail":"On the basis of the medical center “Nordis” can be given a thorough examination of the body and get the advice of highly qualified specialists in various fields of medicine. According to studies, our doctors will make an individual program of prevention and treatment of identified diseases, directed to a surgical treatment if necessary.",
+        "detail-para":"In today’s operational department conducted a wide range of operations under local and general anesthesia; as in “Nordis” provides services for the diagnosis and treatment of infertility, including the use of reproductive technologies (IVF).",
+        "img":"https://nordis.true-emotions.studio/health/wp-content/uploads/sites/14/2018/03/iStock_21731652_LARGE.jpg"
+    },
+    {
+        "id":4,
+        "name":"Doctor’s visit to the house",
+        "cat":"For the elderly people",
+        "detail":"On the basis of the medical center “Nordis” can be given a thorough examination of the body and get the advice of highly qualified specialists in various fields of medicine. According to studies, our doctors will make an individual program of prevention and treatment of identified diseases, directed to a surgical treatment if necessary.",
+        "detail-para":"In today’s operational department conducted a wide range of operations under local and general anesthesia; as in “Nordis” provides services for the diagnosis and treatment of infertility, including the use of reproductive technologies (IVF).",
+        "img":"https://nordis.true-emotions.studio/health/wp-content/uploads/sites/14/2018/01/GettyImages-625162880.jpg"
+    }
+]
