@@ -27,7 +27,6 @@ const ServiceDetail = () => {
                         <h5>{result?.cat}</h5>
                         <p className="pt-3">{result?.detail}</p>
                         <p>{result?.detailPara}</p>
-                       
                     </div>
                    
                 </div>
