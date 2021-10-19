@@ -1,26 +1,26 @@
 [
     {
         "id":1,
-        "name":"Medical care and care",
+        "name":"Medical care ",
         "cat":"For the elderly people",
-        "detail":"On the basis of the medical center “Nordis” can be given a thorough examination of the body and get the advice of highly qualified specialists in various fields of medicine. According to studies, our doctors will make an individual program of prevention and treatment of identified diseases, directed to a surgical treatment if necessary.",
-        "detailPara":"In today’s operational department conducted a wide range of operations under local and general anesthesia; as in “Nordis” provides services for the diagnosis and treatment of infertility, including the use of reproductive technologies (IVF).",
+        "detail":"Health is a basic human right. Cordaid wants to ensure that everybody has access to quality health care. Especially women and youth in fragile conflict- and violence-affected settings (FCVAS),  where access or availability of such services is not a given. We are committed to increase access to sexual and reproductive health services for youth and vulnerable people, like HIV-affected persons. We contribute to more adequate and more affordable health care services through result-based financing. We address individual and collective trauma in post-disaster and conflict-affected settings where psychosocial support is a precondition or traumatized people to rebuild their lives.",
+        "detailPara":"Universal Health Coverage (UHC) aims to ensure that everyone, especially women and children and vulnerable people receives adequate affordable services. Cordaid contributes to UHC by improving access to quality health services. We do this in close cooperation with local health care providers, national authorities and international stakeholders. ",
         "img":"https://nordis.true-emotions.studio/health/wp-content/uploads/sites/14/2018/03/171025-better-doctor.jpg"
     },
     {
         "id":2,
-        "name":"Care and help at home",
+        "name":"Mental Health and Psychosocial Support",
         "cat":"For the elderly people",
-        "detail":"On the basis of the medical center “Nordis” can be given a thorough examination of the body and get the advice of highly qualified specialists in various fields of medicine. According to studies, our doctors will make an individual program of prevention and treatment of identified diseases, directed to a surgical treatment if necessary.",
-        "detailPara":"In today’s operational department conducted a wide range of operations under local and general anesthesia; as in “Nordis” provides services for the diagnosis and treatment of infertility, including the use of reproductive technologies (IVF).",
+        "detail":"Social determinants have a direct influence on the prevalence and severity of mental disorders. The global burden of these disorders is unlikely to be relieved by improved access to mental health treatments alone. There has to be a strong link between Mental Health and Psychosocial Support (MHPSS) to deal with huge unmet needs in individuals and communities, particularly settings affected by war and conflict. Cordaid focuses on such contexts and addresses individual and collective trauma.",
+        "detailPara":"Health workers and social workers provide diagnosis and treatment, while community outreach workers are trained and support groups formed for follow-up support and re-integration.  ",
         "img":"https://nordis.true-emotions.studio/health/wp-content/uploads/sites/14/2018/03/153810275-2.jpg"
     },
     {
         "id":3,
         "name":"Specialized care",
         "cat":"For the elderly people",
-        "detail":"On the basis of the medical center “Nordis” can be given a thorough examination of the body and get the advice of highly qualified specialists in various fields of medicine. According to studies, our doctors will make an individual program of prevention and treatment of identified diseases, directed to a surgical treatment if necessary.",
-        "detailPara":"In today’s operational department conducted a wide range of operations under local and general anesthesia; as in “Nordis” provides services for the diagnosis and treatment of infertility, including the use of reproductive technologies (IVF).",
+        "detail":"The doctor who will treat you fits into two categories: primary care provider (PCP) and specialist[i]. A primary care provider is also known as a family practice doctor, internist, general practitioner or geriatrician (for older adults) who is trained in a diverse range of medicine and medical procedures. A PCP is your initial-level contact to see with your basic health needs and concerns. A specialist is a medical doctor who has completed additional training in a specific medical field such rheumatology, gastroenterology or dermatology.",
+        "detailPara":"Traditionally, your PCP is the gatekeeper of your overall health and is the one who will refer you to a specialist; however, a study published in the Journal of the American Geriatrics Society found that more than 30 percent of seniors with multiple chronic conditions consider their specialist as their main physician. Some health plans require you to see a PCP first before seeking specialized care.",
         "img":"https://nordis.true-emotions.studio/health/wp-content/uploads/sites/14/2018/03/iStock_21731652_LARGE.jpg"
     },
     {
@@ -30,5 +30,21 @@
         "detail":"On the basis of the medical center “Nordis” can be given a thorough examination of the body and get the advice of highly qualified specialists in various fields of medicine. According to studies, our doctors will make an individual program of prevention and treatment of identified diseases, directed to a surgical treatment if necessary.",
         "detailPara":"In today’s operational department conducted a wide range of operations under local and general anesthesia; as in “Nordis” provides services for the diagnosis and treatment of infertility, including the use of reproductive technologies (IVF).",
         "img":"https://nordis.true-emotions.studio/health/wp-content/uploads/sites/14/2018/01/GettyImages-625162880.jpg"
+    },
+    {
+        "id":5,
+        "name":"24x7 observation under doctors",
+        "cat":"For the elderly people",
+        "detail":"The pursuit of the psychoanalyst has become a hobby of the well-to-do. You may not go to a psychoanalyst but you go through the same process in a different way when you look to a religious organisation, to a leader or to a discipline to free you from fixations, inhibitions and complexes. These methods may succeed in creating superficial effects, but they inevitably develop new resistances against the movement of life. ",
+        "detailPara":"This demands alertness and keen perception, not the mere acceptance of a technique. But as one is slothful, one depends on another for comprehension and thereby increase sorrow and confusion. The comprehension of this process of ignorance and its self-sustaining activities can alone bring about deep, abiding bliss.",
+        "img":"http://promo-theme.com/medina-wp/wp-content/uploads/2016/10/b1.jpg"
+    },
+    {
+        "id":6,
+        "name":"Affordable health checks",
+        "cat":"For the elderly people",
+        "detail":"Laboratory tests check a sample of your blood, urine, or body tissues. A technician or your doctor analyzes the test samples to see if your results fall within the normal range. The tests use a range because what is normal differs from person to person. Many factors affect test results. These include.",
+        "detailPara":"Your doctor may also compare your results to results from previous tests. Laboratory tests are often part of a routine checkup to look for changes in your health. They also help doctors diagnose medical conditions, plan or evaluate treatments, and monitor diseases.",
+        "img":"http://promo-theme.com/medina-wp/wp-content/uploads/2016/10/b3.jpg"
     }
 ]

@@ -8,7 +8,7 @@ const AboutUs = () => {
             <div className="row">
                 <div className="col-lg-6 d-flex justify-content-center">
                     <div className=" image-container">
-                        <img src={medi} alt="" />
+                        <img className="about-img" src={medi} alt="" />
                     </div>
                     
                 </div>

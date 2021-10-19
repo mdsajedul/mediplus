@@ -6,7 +6,7 @@
     border-radius: 10px;
 }
 
-img{
+.image-container img{
     height: 500px;
     width: 450px;
     border-radius: 10px;
@@ -20,6 +20,6 @@ img{
     font-weight: 900;
 }
 
-img:hover{
+.image-container img:hover{
     transform: scale(1.2);
 }
