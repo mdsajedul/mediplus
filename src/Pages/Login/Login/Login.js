@@ -4,7 +4,7 @@ import './login.css';
 
 
 const Login = () => {
-    const {signInWithGoogle,user,signUpWithEmailAndPassword,updateProfileName} = useAuth();
+    const {signInWithGoogle,user,signUpWithEmailAndPassword,updateProfileName,LoginWithEmailAndPassword} = useAuth();
 
     const [userEmail,setUserEmail] = useState('');
     const [userPassword,setUserPassword] = useState('');
@@ -27,6 +27,11 @@ const Login = () => {
         signUpWithEmailAndPassword(userEmail,userPassword);
         updateProfileName(userName)
     }
+    const handleLogin =(e) =>{
+        e.preventDefault();
+        LoginWithEmailAndPassword(userEmail,userPassword);
+    }
+
 
     const toggleCheckbox =(e)=>{
         setChecked(e.target.checked)
@@ -59,7 +64,7 @@ const Login = () => {
                         </div>
                         {
                             checked?  
-                            <button   className="btn-login" type="submit">Login</button>
+                            <button  onClick={handleLogin}  className="btn-login" type="submit">Login</button>
                             :
                             <button   className="btn-login" onClick={handleRegister} type="submit">Register</button>
                         }

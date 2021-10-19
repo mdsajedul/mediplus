@@ -1,0 +1,33 @@
+.contacts-container{
+    color: #6D6A7C;
+}
+
+.contact-heading{
+    font-weight: 900;
+    color: #2B3A5E;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+  }
+  input:focus,textarea:focus {
+    outline: none !important;
+    border:1px solid #2B3A5E;
+    box-shadow: 0 0 10px #719ECE;
+  }
+  textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  

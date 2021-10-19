@@ -1,9 +1,15 @@
 import React from 'react';
+import medi from '../../Images/other/medi.jpg'
 
 const AboutUs = () => {
     return (
-        <div>
-            <h2>About US</h2>
+        <div className="">
+            <div className="row">
+                <div className="col-lg-6">
+                    <img src={medi} alt="" />
+                </div>
+                <div className="col-lg-6"></div>
+            </div>
         </div>
     );
 };
