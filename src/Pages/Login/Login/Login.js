@@ -25,7 +25,7 @@ const Login = () => {
     const handleRegister =(e) =>{
         e.preventDefault();
         signUpWithEmailAndPassword(userEmail,userPassword);
-        // updateProfileName(userName)
+        updateProfileName(userName)
     }
 
     const toggleCheckbox =(e)=>{

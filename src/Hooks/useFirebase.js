@@ -32,8 +32,8 @@ const useFirebase =()=>{
         console.log('Register done')
     }
 
-    // const updateProfileName=(name)=>{
-    //     updateProfile(auth.currentUser,{displayName:name})
+    // const  updateProfileName=(name)=>{
+    //     updateProfile( auth?.currentUser,{displayName:name})
     //     .then(result=>{})
     // }
 
@@ -64,7 +64,6 @@ const useFirebase =()=>{
         isLoading,
         signInWithGoogle,
         signUpWithEmailAndPassword,
-      
         logOut
     }
 

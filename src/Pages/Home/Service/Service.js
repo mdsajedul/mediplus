@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './service.css';
 
 const Service = ({service}) => {
@@ -12,7 +13,10 @@ const Service = ({service}) => {
                 <div className="service-content">
                     <h5>{name}</h5>
                     <p>{detail.substr(0,145)}...</p>
-                    <button className="btn-services">Details</button>
+                    <Link to={`/services/${id}`}>
+                        <button className="btn-services">Details</button>
+                    </Link>
+                    
                 </div>
             </div>
         </div>

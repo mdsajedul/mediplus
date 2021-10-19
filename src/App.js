@@ -10,6 +10,8 @@ import Contacts from './Pages/Contacts/Contacts';
 import NotFound from './Pages/NotFound/NotFound';
 import Login from './Pages/Login/Login/Login';
 import AuthProvider from './AuthProvider/AuthProvider';
+import ServiceDetail from './Pages/Home/ServiceDetail/ServiceDetail';
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -36,6 +38,9 @@ function App() {
                   <Route path="/contact">
                       <Contacts></Contacts>
                   </Route>
+                  <PrivateRoute path="/services/:serviceId">
+                      <ServiceDetail></ServiceDetail>
+                  </PrivateRoute>
                   <Route path="*">
                       <NotFound></NotFound>
                   </Route>
