@@ -13,7 +13,7 @@ const Home = () => {
                         <h3>Why Choose Us?</h3>
                     </div>
                     <div className="col-lg-4">
-                        <p>Nunc purus sodales quis, purus a arcu, ultricies dui, ipsum eget, massa metus sed. Odio arcu dolor, facilisis adipiscing nam mauris suspendisse.</p>
+                        <p>A large number of international patients choose Continental Hospitals because of our expert team of doctors, devoted staff and state-of-the-art infrastructure.</p>
                     </div>
                     <div className="col-lg-4">
                         <h5>Booking now</h5>
