@@ -1,0 +1,9 @@
+.doctors-header{
+    padding-top: 35px;
+    height: 100px;
+    text-align: center;
+    color: #2B3A5E;
+}
+.doctors-header h1{
+    font-weight: 900;
+}

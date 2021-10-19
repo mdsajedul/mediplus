@@ -2,70 +2,70 @@
     {
         "name":"Alexa Janathon",
         "experience":20,
-        "specialties ":"Anesthesiologists",
+        "specialties":"Anesthesiologists",
         "email":"alexa@gmail.com",
         "img":"./doctors/1.jpg"
     },
     {
         "name":"Janathon Smith",
         "experience":15,
-        "specialties ":"Cardiologists",
+        "specialties":"Cardiologists",
         "email":"janathon@gmail.com",
         "img":"./doctors/2.jpg"
     },
     {
         "name":"Alexa MacCalum",
         "experience":20,
-        "specialties ":"Colon and Rectal Surgeons",
+        "specialties":"Colon and Rectal Surgeons",
         "email":"macCalum@gmail.com",
         "img":"./doctors/3.jpg"
     },
     {
         "name":"Alexa j Watson",
         "experience":20,
-        "specialties ":"Dermatologists",
+        "specialties":"Dermatologists",
         "email":"watson@gmail.com",
         "img":"./doctors/4.jpg"
     },
     {
         "name":"Mark Jonee",
         "experience":20,
-        "specialties ":"Endocrinologists",
+        "specialties":"Endocrinologists",
         "email":"jonee@gmail.com",
         "img":"./doctors/5.jpg"
     },
     {
         "name":"Steve John",
         "experience":20,
-        "specialties ":"Gastroenterologists",
+        "specialties":"Gastroenterologists",
         "email":"steve@gmail.com",
         "img":"./doctors/6.jpg"
     },
     {
         "name":"Alin Steve",
         "experience":20,
-        "specialties ":"Neurologists",
+        "specialties":"Neurologists",
         "email":"alin@gmail.com",
         "img":"./doctors/7.jpg"
     },
     {
         "name":"Nicolas Stifen",
         "experience":20,
-        "specialties ":"Ophthalmologists",
+        "specialties":"Ophthalmologists",
         "email":"nicolas@gmail.com",
         "img":"./doctors/8.jpg"
     },
     {
         "name":"Alin Nicolas",
         "experience":20,
-        "specialties ":"Cardiologists",
+        "specialties":"Cardiologists",
         "email":"alin@gmail.com",
         "img":"./doctors/9.jpg"
     },
     {
         "name":"Stifen John",
         "experience":20,
-        "specialties ":"Dermatologists",
+        "specialties":"Dermatologists",
         "email":"stifen@gmail.com",
         "img":"./doctors/10.jpg"
     }

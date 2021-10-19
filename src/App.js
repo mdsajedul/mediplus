@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Header from './Pages/Shared/Header/Header';
 import Home from './Pages/Home/Home/Home';
-import Doctor from './Pages/Doctors/Doctor';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import Contacts from './Pages/Contacts/Contacts';
 import NotFound from './Pages/NotFound/NotFound';
@@ -12,6 +11,7 @@ import Login from './Pages/Login/Login/Login';
 import AuthProvider from './AuthProvider/AuthProvider';
 import ServiceDetail from './Pages/Home/ServiceDetail/ServiceDetail';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import Doctors from './Pages/Doctors/Doctors';
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
                       <Login></Login>
                   </Route>
                   <Route path="/doctors">
-                      <Doctor></Doctor>
+                      <Doctors></Doctors>
                   </Route>
                   <Route path="/about">
                       <AboutUs></AboutUs>
