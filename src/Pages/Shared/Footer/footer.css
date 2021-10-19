@@ -1,0 +1,27 @@
+.footer-container{
+    padding: 20px;
+    background-color: #2B3A5E;
+    color: white;
+}
+
+
+.social-icon{
+    padding-top: 25px;
+}
+.social-icon a{
+    text-decoration: none;
+}
+.fab{
+    font-size: 40px;
+    margin-right: 25px;
+}
+
+.btn-subscribe{
+    background-color: rgb(75, 75, 189);
+    display: inline;
+    color: white;
+    width: 180px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 0;
+}
