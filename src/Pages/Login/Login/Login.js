@@ -1,34 +1,81 @@
-import React from 'react';
-import { useForm } from 'react-hook-form';
+import React, { useState } from 'react';
 import useAuth from '../../../Hooks/useAuth';
 import './login.css';
 
+
 const Login = () => {
-    const { register, handleSubmit, watch, formState: { errors } } = useForm();
-    const onSubmit = data => console.log(data);
-    const {signInWithGoogle,user} = useAuth();
+    const {signInWithGoogle,user,signUpWithEmailAndPassword,updateProfileName} = useAuth();
+
+    const [userEmail,setUserEmail] = useState('');
+    const [userPassword,setUserPassword] = useState('');
+    const [userName,setUserName] = useState('');
+    const [checked, setChecked] = useState(false);
+
+ 
+    const handleEmail =(e)=>{
+        setUserEmail(e.target.value);
+    }
+    const handlePassword =(e)=>{
+        setUserPassword(e.target.value);
+    }
+    const handleName=(e)=>{
+        setUserName(e.target.value);
+    }
+
+    const handleRegister =(e) =>{
+        e.preventDefault();
+        signUpWithEmailAndPassword(userEmail,userPassword);
+        // updateProfileName(userName)
+    }
+
+    const toggleCheckbox =(e)=>{
+        setChecked(e.target.checked)
+    }
+    
+    
     console.log(user)
     return (
         <div className="login-container d-flex justify-content-center">
            
            <div className="login-card">
-                <h2>Login</h2>
+               {
+                   checked? <h2>Login</h2> :<h2>Sign Up</h2>
+               }
                 <div className="form-style">
-                    <form onSubmit={handleSubmit(onSubmit)}>
+                    <form >
+                        {
+                            !checked && 
+                            <div className="mb-3">
+                            <input onBlur={handleName} className="form-control" type="text" name="" placeholder="Your Name"/>
+                        </div>
+                        }
+                       
                         <div className="mb-3">
-                            <input  type="text" placeholder="Your Email" {...register("email", { required: true })} />
-                            {errors.email && <span  className="text-danger">This field is required</span>} 
+                            <input onBlur={handleEmail} className="form-control" type="email" name="" placeholder="Your Email"/>
                         </div>
                         <div className="mb-4">
-                            <input  type="password" placeholder="Password"  {...register("password",{required:true})} />
-                            {errors.password && <span className="text-danger">This field is required</span>} 
+                            <input onBlur={handlePassword} className="form-control" type="Password" name="" placeholder="Password"/>
+                            
                         </div>
+                        {
+                            checked?  
+                            <button   className="btn-login" type="submit">Login</button>
+                            :
+                            <button   className="btn-login" onClick={handleRegister} type="submit">Register</button>
+                        }
                         
-                        <button className="btn-login"  type="submit">Login</button>
+                        
+                        
+                        <div className="mt-2">
+                            <input 
+                            type="checkbox"
+                            onChange={toggleCheckbox}
+                            /> Already registered?
+                        </div>
                     </form>
                 </div>
                 <hr />
-                    <button className="btn-login" onClick={signInWithGoogle}>Login with Google</button>
+                <button className="btn-login" onClick={signInWithGoogle}>Login with Google</button>
            </div>
           
         </div>
