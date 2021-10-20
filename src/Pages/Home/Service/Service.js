@@ -5,8 +5,8 @@ import './service.css';
 const Service = ({service}) => {
     const {id,name,detail,img} = service;
     return (
-        <div className="col-lg-6 gx-0 gy-1 service-card service-style">
-            <div className="">
+        <div className="col-lg-6 gx-0 gy-1  service-style">
+            <div className="service-card">
                 <div className="img-container">
                     <img className="img-style" src={img} alt="" />
                 </div>

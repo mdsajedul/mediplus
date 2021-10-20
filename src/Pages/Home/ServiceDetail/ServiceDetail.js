@@ -17,11 +17,14 @@ const ServiceDetail = () => {
 
     return (
         <div className=" m-4">
-            <div className="row">
-                <div className="col-lg-6">
-                    <img src={result?.img} alt="" />
+            <div className="row gx-0 ">
+                <div className="col-lg-6  p-4" >
+                    <div className="img-container">
+                        <img className="img-fluid" src={result?.img} alt="" />
+                    </div>
+                    
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-6 content-style p-3">
                     <h1>{result?.name}</h1>
                     <div className="px-3 ">
                         <h5>{result?.cat}</h5>

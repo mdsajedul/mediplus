@@ -13,7 +13,7 @@ const Banner = () => {
                 <Carousel.Item>
                     
                     <img
-                    className="d-block w-100 image-style"
+                    className="d-block w-100 image-style img-fluid"
                     src={one}
                     alt="First slide"
                     />
@@ -26,7 +26,7 @@ const Banner = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                    className="d-block w-100 image-style"
+                    className="d-block w-100 image-style img-fluid"
                     src={two}
                     alt="Second slide"
                     />
@@ -40,7 +40,7 @@ const Banner = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                    className="d-block w-100 image-style"
+                    className="d-block w-100 image-style img-fluid"
                     src={three}
                     alt="Third slide"
                     />
