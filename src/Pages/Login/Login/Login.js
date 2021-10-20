@@ -1,16 +1,20 @@
 import React, { useState } from 'react';
+import { useHistory, useLocation } from 'react-router';
 import useAuth from '../../../Hooks/useAuth';
 import './login.css';
 
 
 const Login = () => {
-    const {signInWithGoogle,user,signUpWithEmailAndPassword,updateProfileName,LoginWithEmailAndPassword} = useAuth();
+    const {signInWithGoogle,user,setUser,setIsLoading, signUpWithEmailAndPassword,updateProfileName,LoginWithEmailAndPassword} = useAuth();
 
     const [userEmail,setUserEmail] = useState('');
     const [userPassword,setUserPassword] = useState('');
     const [userName,setUserName] = useState('');
     const [checked, setChecked] = useState(false);
 
+    const location = useLocation();
+    const redirect_uri = '/home#services' || '/home';
+    const history =useHistory();
  
     const handleEmail =(e)=>{
         setUserEmail(e.target.value);
@@ -24,12 +28,31 @@ const Login = () => {
 
     const handleRegister =(e) =>{
         e.preventDefault();
-        signUpWithEmailAndPassword(userEmail,userPassword);
-        updateProfileName(userName)
+        signUpWithEmailAndPassword(userEmail,userPassword)
+        .then(result=>{
+            setUser(result.user);
+            // history.push(redirect_uri)
+            window.location.href = redirect_uri
+        })
+        .catch(error =>{
+            
+        })
+        .finally(() => setIsLoading(false));
+        //updateProfileName(userName)
     }
+
     const handleLogin =(e) =>{
         e.preventDefault();
-        LoginWithEmailAndPassword(userEmail,userPassword);
+        LoginWithEmailAndPassword(userEmail,userPassword)
+        .then(result=>{
+            setUser(result.user);
+            // history.push(redirect_uri)
+            window.location.href = redirect_uri
+          })
+          .catch(error =>{
+            
+          })
+          .finally(() => setIsLoading(false));
     }
 
 
@@ -37,8 +60,22 @@ const Login = () => {
         setChecked(e.target.checked)
     }
     
-    
-    console.log(user)
+
+   
+
+    const handleGoogleLogin=()=>{
+        signInWithGoogle()
+        .then(result => {
+            setUser(result.user);
+            // history.push(redirect_uri)
+            window.location.href = redirect_uri
+        })
+        .finally(() => setIsLoading(false));
+    }
+
+   
+
+
     return (
         <div className="login-container d-flex justify-content-center">
            
@@ -80,7 +117,7 @@ const Login = () => {
                     </form>
                 </div>
                 <hr />
-                <button className="btn-login" onClick={signInWithGoogle}>Login with Google</button>
+                <button className="btn-login" onClick={handleGoogleLogin}>Login with Google</button>
            </div>
           
         </div>

@@ -16,32 +16,19 @@ const useFirebase =()=>{
         setIsLoading(true);
         const googleProvider = new GoogleAuthProvider();
 
-        signInWithPopup(auth, googleProvider)
-            .then(result => {
-                setUser(result.user);
-            })
-            .finally(() => setIsLoading(false));
+        return signInWithPopup(auth, googleProvider);
+           
     }
     
     const signUpWithEmailAndPassword = (email,password)=>{
-        createUserWithEmailAndPassword(auth,email,password)
-        .then(result=>{
-            console.log(result.user)
-        })
-        console.log(email,password)
-        console.log('Register done')
+        setIsLoading(true);
+        return createUserWithEmailAndPassword(auth,email,password)
     }
 
     const LoginWithEmailAndPassword=(email,password)=>{
-        signInWithEmailAndPassword(auth,email,password)
-        .then(result=>{
-          const user = result.user;
-          console.log(user)
-         
-        })
-        .catch(error =>{
-          
-        })
+        setIsLoading(true);
+        return signInWithEmailAndPassword(auth,email,password)
+        
       }
 
     // const  updateProfileName=(name)=>{
@@ -72,6 +59,8 @@ const useFirebase =()=>{
     }
 
     return{
+        setUser,
+        setIsLoading,
         user,
         isLoading,
         signInWithGoogle,

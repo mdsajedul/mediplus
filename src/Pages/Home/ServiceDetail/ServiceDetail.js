@@ -13,7 +13,7 @@ const ServiceDetail = () => {
 
 
     const result = service.find(({id})=>id==serviceId);
-    console.log(result)
+   
 
     return (
         <div className=" m-4">
