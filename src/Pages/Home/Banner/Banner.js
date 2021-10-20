@@ -4,6 +4,7 @@ import one from '../../../Images/banner/one.jpg'
 import two from '../../../Images/banner/two.jpg'
 import three from '../../../Images/banner/three.jpg'
 import "./banner.css";
+import { Link } from 'react-router-dom';
 import "../../Shared/Styles/style.css"
 
 const Banner = () => {
@@ -20,7 +21,10 @@ const Banner = () => {
                     <Carousel.Caption>
                         <div className="carosel-style">
                             <h1 className="text-color-one" >We will provide our parents a healthy life</h1>
-                            <button className="btn-regular">About Us</button>
+                            <Link to="/about">
+                                <button className="btn-regular">About Us</button>
+                            </Link>
+                            
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -34,7 +38,9 @@ const Banner = () => {
                     <Carousel.Caption>
                         <div className="carosel-style">
                             <h1 className="text-color-one" >We will provide our parents a healthy life</h1>
-                            <button className="btn-regular">About Us</button>
+                            <Link to="/about">
+                                <button className="btn-regular">About Us</button>
+                            </Link>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -48,7 +54,9 @@ const Banner = () => {
                     <Carousel.Caption>
                         <div className="carosel-style">
                             <h1 className="text-color-one">We will provide our parents a healthy life</h1>
-                            <button className="btn-regular">About Us</button>
+                            <Link to="/about">
+                                <button className="btn-regular">About Us</button>
+                            </Link>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
