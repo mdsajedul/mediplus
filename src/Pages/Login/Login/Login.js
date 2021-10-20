@@ -32,13 +32,20 @@ const Login = () => {
         .then(result=>{
             setUser(result.user);
             // history.push(redirect_uri)
-            window.location.href = redirect_uri
+            window.location.href = redirect_uri;
+            updateProfileName(userName);
         })
         .catch(error =>{
             
         })
-        .finally(() => setIsLoading(false));
-        //updateProfileName(userName)
+        .finally(() =>{
+            setIsLoading(false);
+            
+        } )
+
+        
+        
+        
     }
 
     const handleLogin =(e) =>{

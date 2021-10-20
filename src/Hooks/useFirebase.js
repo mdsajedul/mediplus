@@ -31,10 +31,15 @@ const useFirebase =()=>{
         
       }
 
-    // const  updateProfileName=(name)=>{
-    //     updateProfile( auth?.currentUser,{displayName:name})
-    //     .then(result=>{})
-    // }
+    const  updateProfileName=(name)=>{
+        updateProfile( auth.currentUser,{displayName:name})
+        .then(()=>{
+            console.log("Profile Updated");
+        })
+        .catch((error)=>{
+            console.log(error)
+        })
+    }
 
     useEffect(() => {
         const unsubscribed = onAuthStateChanged(auth, user => {
@@ -66,7 +71,8 @@ const useFirebase =()=>{
         signInWithGoogle,
         signUpWithEmailAndPassword,
         LoginWithEmailAndPassword,
-        logOut
+        logOut,
+        updateProfileName
     }
 
 }
