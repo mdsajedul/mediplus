@@ -7,7 +7,7 @@ const Services = () => {
     const [services] = useServices();
     return (
         <div id="services">
-            <div className="row">
+            <div className="row gx-0">
                 <div className="col-lg-4">
                     <div className=" col-lg-6  services-card ">
                         <h2>Our Services</h2>
@@ -15,7 +15,7 @@ const Services = () => {
                     </div>
                 </div>
                 <div className="col-lg-8">
-                    <div className="row">
+                    <div className="row gx-0">
                         {
                            services.map(service=><Service
                             key={service.id} 
