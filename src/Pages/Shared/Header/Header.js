@@ -10,7 +10,7 @@ const Header = () => {
     const { user, logOut } = useAuth();
     return (
         <>
-            <Navbar className="nav-custom" collapseOnSelect expand="lg" variant="dark">
+            <Navbar sticky="top" className="nav-custom" collapseOnSelect expand="lg" variant="dark">
                 <Container>
                 <Navbar.Brand href="/home"><span><span>M</span>ediplus</span></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
