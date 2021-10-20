@@ -20,7 +20,7 @@ const Banner = () => {
                     />
                     <Carousel.Caption>
                         <div className="carosel-style">
-                            <h1 className="text-color-one" >We will provide our parents a healthy life</h1>
+                            <h1 className="text-color-one banner-content" >We will provide our parents a healthy life</h1>
                             <Link to="/about">
                                 <button className="btn-regular">About Us</button>
                             </Link>
@@ -37,7 +37,7 @@ const Banner = () => {
 
                     <Carousel.Caption>
                         <div className="carosel-style">
-                            <h1 className="text-color-one" >We will provide our parents a healthy life</h1>
+                            <h1 className="text-color-one banner-content" >We will provide our parents a healthy life</h1>
                             <Link to="/about">
                                 <button className="btn-regular">About Us</button>
                             </Link>
@@ -53,7 +53,7 @@ const Banner = () => {
 
                     <Carousel.Caption>
                         <div className="carosel-style">
-                            <h1 className="text-color-one">We will provide our parents a healthy life</h1>
+                            <h1 className="text-color-one banner-content">We will provide our parents a healthy life</h1>
                             <Link to="/about">
                                 <button className="btn-regular">About Us</button>
                             </Link>
