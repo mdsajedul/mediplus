@@ -13,7 +13,7 @@ const Login = () => {
     const [checked, setChecked] = useState(false);
 
     const location = useLocation();
-    const redirect_uri = '/home#services' || '/home';
+    const redirect_uri =(location.state?.from)? '/home#services' : '/home';
     const history =useHistory();
  
     const handleEmail =(e)=>{
